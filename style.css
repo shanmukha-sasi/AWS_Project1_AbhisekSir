@@ -1,0 +1,20 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+body { background: #f4f6f8; color: #232f3e; line-height: 1.6; }
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 1rem 5%; background: #232f3e; color: #fff; }
+.logo-container { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 1.2rem; }
+.logo { height: 36px; background: #fff; padding: 4px; border-radius: 4px; }
+nav a { color: #fff; text-decoration: none; margin-right: 20px; font-weight: 500; }
+.cta-btn { background: #ff9900; color: #232f3e; border: none; padding: 8px 16px; border-radius: 4px; font-weight: 700; cursor: pointer; }
+.hero { text-align: center; padding: 4rem 1rem; background: linear-gradient(135deg, #232f3e, #1a242f); color: #fff; }
+.hero h1 { font-size: 2.5rem; margin-bottom: 1rem; }
+.status-badge { display: inline-block; margin-top: 1.5rem; background: rgba(255, 153, 0, 0.15); border: 1px solid #ff9900; color: #ff9900; padding: 6px 14px; border-radius: 20px; font-size: 0.9rem; }
+.section { padding: 3rem 10%; text-align: center; }
+.section h2 { margin-bottom: 2rem; font-size: 1.8rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+.card { background: #fff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: left; }
+.card img { width: 100%; height: 200px; object-fit: cover; }
+.card-body { padding: 1.2rem; }
+.dark-bg { background: #e9ecef; }
+.leader-card { display: flex; align-items: center; justify-content: center; gap: 2rem; background: #fff; max-width: 600px; margin: 0 auto; padding: 1.5rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-align: left; }
+.leader-img { width: 110px; height: 110px; border-radius: 50%; object-fit: cover; border: 3px solid #ff9900; }
+footer { text-align: center; padding: 1.5rem; background: #232f3e; color: #cbd5e1; font-size: 0.9rem; }

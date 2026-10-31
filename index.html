@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Student Builder Club Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="assets/aws-logo.png" alt="AWS Logo" class="logo">
+            <span>AWS Student Builder Club</span>
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#workshops">Workshops</a>
+            <a href="#team">Leadership</a>
+            <button id="joinBtn" class="cta-btn">Join Club</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Build in the Cloud. Lead on Campus.</h1>
+        <p>Hands-on AWS architecture, DevOps workflows, and cloud security workshops for student builders.</p>
+        <div class="status-badge">🟢 Deployed on AWS EC2 via Nginx & Git</div>
+    </section>
+
+    <section id="workshops" class="section">
+        <h2>Recent Cloud Workshops</h2>
+        <div class="grid">
+            <div class="card">
+                <img src="assets/workshops/workshop2.jpg" alt="Cloud Workshop Session">
+                <div class="card-body">
+                    <h3>Facialating & Guest speaker</h3>
+                    <p>Honouring speaker for his awesome lecture </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="assets/workshops/workshop3.jpg" alt="EC2 Hands-on Lab">
+                <div class="card-body">
+                    <h3>AWS intro to all services and KIRO</h3>
+                    <p></p>Intro to AWS and real services using real world examples and hands on workshop.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section dark-bg">
+        <h2>Campus Leadership</h2>
+        <div class="leader-card">
+            <img src="assets/team/campus-leader.jpg" alt="Campus Leader" class="leader-img">
+            <div>
+                <h3>AWS Student Builder Group Leader </h3>
+                <p>Leading student cloud initiatives, architecture labs, and peer-to-peer DevOps mentoring.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Hosted on Amazon EC2 (Ubuntu) | Served via Nginx | Secured with AWS IAM</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
